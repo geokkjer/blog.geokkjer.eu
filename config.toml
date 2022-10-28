@@ -1,0 +1,33 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'geokkjer@nix'
+theme = ""
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated rubberBand fast" 
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = true
+      lineNumbersInTable = true
+      tabWidth = 2
+      noClasses = false
+      style = 'gruvbox'
