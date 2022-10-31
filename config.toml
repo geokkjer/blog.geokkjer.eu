@@ -11,7 +11,7 @@ pygmentsCodefences = true
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated rubberBand fast" 
+  animateStyle = "animated rubberBand fast"
 
   [[params.navlinks]]
   name = "about/"
@@ -20,6 +20,10 @@ pygmentsCodefences = true
   [[params.navlinks]]
   name = "posts/"
   url = "posts/"
+
+  [[params.navlinks]]
+  name = "k8s/"
+  url = "posts/k8s"
 
 [markup.highlight]
       codeFences = true

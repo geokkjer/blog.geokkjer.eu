@@ -1,32 +1,41 @@
 +++
-title = "Quick look at NixOS"
-date = 2022-02-12
-updated = 2022-01-15
-[taxonomies]
-tags = ["how-to", "Linux", "Nix", "NixOS","intermediate"]
+title = "Intro to NixOS"
+date = 2022-10-25
+author = "Geir Okkenhaug Jerstad"
 +++
-# Intro 
 
-What is NixOS ?
 
-# Downloading the iso
+NixOS is a 
 
-# Step by step install
+## Downloading the iso
+
+There are two methods for installing NixOS. The first is a traditional desktop installation with a nice graphical installer. The other is a minimal command line install. 
+First download the iso of your choice from [NixOS](https://nixos.org/download.html)
+
+## Step by step install 
+
 Remember to add git
+
 ```sh
 ```
-# My steps
+
+## My steps
+
 clone git repo
+
 ```sh
+
 git clone https://github.com/geokkjer/nixosdotfiles
 
 cd nixosdotfiles
 
-
 ```
-# Conclusion
+
+## Conclusion
+
 
 ### Sources
+
 * [How Nix and NixOS get so close to perfect](https://www.youtube.com/watch?v=qjq2wVEpSsA)
 
 * [Tim Steinbach - Sane system management](https://www.youtube.com/watch?v=_LDzO5_d1a0)
